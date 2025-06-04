@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Rakib Hossain",
+    "email": "rakib.hossain@example.com",
+    "product": "Dell Inspiron Laptop"
+  },
+  {
+    "name": "Tania Akter",
+    "email": "tania.akter@example.com",
+    "product": "Samsung Galaxy Smartphone"
+  },
+  {
+    "name": "Asif Rahman",
+    "email": "asif.rahman@gmail.com",
+    "product": "LG UltraWide Monitor"
+  },
+  {
+    "name": "Anika Sultana",
+    "email": "anika.sultana@yahoo.com",
+    "product": "Logitech Mechanical Keyboard"
+  },
+  {
+    "name": "Sakib Ahmed",
+    "email": "sakib.ahmed@shop.com",
+    "product": "Razer Gaming Mouse"
+  },
+  {
+    "name": "Nadia Islam",
+    "email": "nadia.islam@example.com",
+    "product": "Apple MacBook Pro"
+  },
+  {
+    "name": "Farhan Kabir",
+    "email": "farhan.kabir@gmail.com",
+    "product": "Sony WH-1000XM5 Headphones"
+  },
+  {
+    "name": "Mehzabien Chowdhury",
+    "email": "mehzabien@media.com",
+    "product": "Canon EOS M50 Camera"
+  },
+  {
+    "name": "Jamil Hasan",
+    "email": "jamil.hasan@example.com",
+    "product": "HP LaserJet Printer"
+  },
+  {
+    "name": "Rehana Parvin",
+    "email": "rehana.parvin@mail.com",
+    "product": "Amazon Echo Dot Speaker"
+  }
+]
