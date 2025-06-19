@@ -1,5 +1,6 @@
 import 'package:animation_widgets/controller/bottombar_controller.dart';
 import 'package:animation_widgets/screen/animation.dart';
+import 'package:animation_widgets/screen/dateTImePicker.dart';
 import 'package:animation_widgets/screen/home.dart';
 import 'package:animation_widgets/screen/pages.dart';
 import 'package:animation_widgets/screen/search.dart';
@@ -18,7 +19,8 @@ class _BottomBarWidgetsState extends State<BottomBarWidgets> {
     HomeWidgets(),
     SearchPage(),
     PagesWidgets(),
-    AnimationWidgets()
+    AnimationWidgets(),
+    DateTimeWidgets()
   ];
   @override
   Widget build(BuildContext context) {
@@ -39,7 +41,8 @@ class _BottomBarWidgetsState extends State<BottomBarWidgets> {
                   icon: Icon(Icons.search), label: "Search"),
               BottomNavigationBarItem(icon: Icon(Icons.pages), label: "Pages"),
               BottomNavigationBarItem(
-                  icon: Icon(Icons.animation), label: "Animation")
+                  icon: Icon(Icons.animation), label: "Animation"),
+              BottomNavigationBarItem(icon:Icon(Icons.date_range),label: "Date")
             ]);
       }),
       body: GetBuilder<BottombarController>(builder: (controller) {

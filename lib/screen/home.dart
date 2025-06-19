@@ -77,7 +77,8 @@ class _HomeWidgetsState extends State<HomeWidgets> {
                         borderRadius: BorderRadius.circular(4),
                         color: changeSizes == size ? Colors.blue : null),
                     child: Visibility(
-                        visible: true, child: Center(child: Text(size))),
+                        visible: true,
+                         child: Center(child: Text(size))),
                   ),
                 ),
               );
